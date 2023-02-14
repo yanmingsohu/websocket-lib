@@ -5,6 +5,14 @@
 `npm install websocket-lib --save`
 
 
+## 代理功能
+
+* test/proxy-client-template.js
+* test/proxy-server-template.js
+
+这是代理服务器/客户端的启动模板, 修改后可以直接使用.
+
+
 ## Web Socket 库
 
 ### Client
@@ -85,6 +93,9 @@ var option = {
 }
 
 var ser = sio.proxyServer(option);
+
+// 在端口上启动 http 服务器
+ser.begin_http_server();
 ```
 
 server 会导出固定服务:

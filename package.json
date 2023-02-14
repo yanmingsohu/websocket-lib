@@ -1,23 +1,26 @@
 {
-  "name": "websocket-lib",
-  "version": "0.1.21",
-  "description": "socket.io",
-  "main": "index.js",
-
-  "scripts": {
-    "test-server": "node test/socketio-server.js",
-    "test-client": "node test/socketio-client.js",
-    "test": "node test/t-proxy.js"
-  },
-
-  "dependencies": {
-    "configuration-lib": "^0.1.19",
-    "cookie": "^0.1.3",
-    "socket.io": "^1.2.1",
-    "socket.io-client": "^1.2.1",
-    "uuid-zy-lib": "^0.1.2"
-  },
-  "devDependencies": {},
-  "author": "yanming",
-  "license": "ISC"
+    "name": "websocket-lib",
+    "version": "0.1.22",
+    "description": "socket.io",
+    "main": "index.js",
+    "scripts": {
+        "test-server": "node test/socketio-server.js",
+        "test-client": "node test/socketio-client.js",
+        "test": "node test/t-proxy.js"
+    },
+    "dependencies": {
+        "configuration-lib": "^0.1.19",
+        "cookie": "^0.1.5",
+        "logger-lib": "^0.3.4",
+        "socket.io": "^1.2.1",
+        "socket.io-client": "^1.2.1",
+        "uuid-zy-lib": "^0.1.2"
+    },
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "devDependencies": {},
+    "author": "yanming",
+    "license": "MIT"
 }
